@@ -1,0 +1,31 @@
+{
+  "name": "node-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "mon": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "connect-livereload": "^0.6.0",
+    "cookie-parser": "~1.4.3",
+    "css-loader": "^0.28.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-express": "^0.3.5",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "minimist": "^1.2.0",
+    "morgan": "~1.8.1",
+    "nunjucks": "^3.0.0",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.5",
+    "serve-favicon": "~2.4.2",
+    "style-loader": "^0.17.0"
+  }
+}
